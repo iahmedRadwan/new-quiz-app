@@ -16,6 +16,7 @@ class QuizApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: AppRouter.appRouter,
       initialRoute: HomeView.routeName,
+      themeMode: ThemeMode.light,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
     );

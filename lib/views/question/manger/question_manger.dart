@@ -28,7 +28,7 @@ class QuestionManger {
         questionScore: 20),
   ];
 
-  void navigateAndChangeNextBtnText(
+  void navigateToNextQuestion(
       {required context, required currentPage, required pageController}) {
     var previousPage = currentPage + 1;
 
@@ -41,7 +41,7 @@ class QuestionManger {
     }
   }
 
-  void navigateBackAndChangeNextBtnText(
+  void navigateBackToPreviousQuestion(
       {required context, required currentPage, required pageController}) {
     var nextPage = currentPage - 1;
 

@@ -76,7 +76,7 @@ class _QuestionViewBodyState extends State<QuestionViewBody> {
                   Expanded(
                       child: CustomButton(
                     onTap: () {
-                      widget.questionManger.navigateBackAndChangeNextBtnText(
+                      widget.questionManger.navigateBackToPreviousQuestion(
                           context: context,
                           currentPage: currentPage,
                           pageController: pageController);
@@ -93,7 +93,7 @@ class _QuestionViewBodyState extends State<QuestionViewBody> {
                   Expanded(
                       child: CustomButton(
                     onTap: () {
-                      widget.questionManger.navigateAndChangeNextBtnText(
+                      widget.questionManger.navigateToNextQuestion(
                           context: context,
                           currentPage: currentPage,
                           pageController: pageController);
